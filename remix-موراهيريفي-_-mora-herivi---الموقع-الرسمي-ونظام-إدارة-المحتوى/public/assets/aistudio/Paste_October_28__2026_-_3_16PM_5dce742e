@@ -1,0 +1,602 @@
+# PROJECT: MORAHERIVI — PREMIUM OFFICIAL PRODUCT WEBSITE & SECURE CONTENT MANAGEMENT SYSTEM
+
+## 1. YOUR ROLE
+
+Act as a senior full-stack software engineer, UI/UX designer, cybersecurity engineer, database architect, and motion designer.
+
+Build a complete, production-oriented official website for the product "موراهيريفي" (Mora Herivi — verify the exact official English spelling against the original product packaging before publishing).
+
+This must be a working full-stack application, not just a static landing page, mockup, prototype, or frontend-only design.
+
+The website must include:
+- A premium public-facing product website.
+- A secure, private administrator dashboard.
+- A real database and persistent content management.
+- Server-side authentication and authorization.
+- A polished presentation with elegant motion and transitions.
+- Responsive Arabic-first design with full RTL support.
+- Optional English localization if configured.
+
+Choose the most suitable technology stack supported by the current AI development platform. If a secure backend, database, or authentication provider is required, implement and configure it instead of simulating security in the frontend.
+
+Do not claim that any feature is complete until it has actually been implemented and tested.
+
+## 2. BRAND IDENTITY AND VISUAL DIRECTION
+
+Brand: موراهيريفي
+
+Product type: Herbal syrup / dietary supplement, subject to verification against the official packaging and applicable registration.
+
+Visual direction: Premium, elegant, modern, clean, trustworthy, medical-inspired, and minimal.
+
+Primary palette:
+- Deep purple.
+- Lavender.
+- Soft lilac.
+- White.
+- Subtle cool gray.
+- Carefully limited dark charcoal for readable text.
+
+Use a consistent design system with reusable colors, typography, spacing, buttons, cards, and animation rules.
+
+Avoid:
+- Cheap-looking templates.
+- Excessive gradients.
+- Crowded layouts.
+- Cartoon medical illustrations.
+- Aggressive sales banners.
+- Fake medical credentials.
+- Unverified clinical claims.
+- Unnecessary popups.
+- Excessive animation that hurts usability.
+
+Use a professional Arabic typeface such as Cairo or Tajawal, with a suitable fallback.
+
+The site should look like an official, premium healthcare product website designed by an experienced branding agency.
+
+## 3. PUBLIC WEBSITE — NO VISITOR LOGIN
+
+The public website must be accessible immediately without creating an account or signing in.
+
+Do not add mandatory registration, visitor accounts, or login walls.
+
+Create the following pages and sections:
+
+### A. Homepage / Hero Presentation
+
+Create a visually impressive hero section featuring:
+- The official product name.
+- A concise, professionally written product introduction.
+- The authentic product packaging.
+- A clear primary call to action, such as "اكتشف المنتج".
+- A secondary action, such as "تعرّف على المكونات".
+- Elegant entrance animations.
+- A premium medical-inspired background.
+- Responsive layout for mobile, tablet, and desktop.
+
+Use the actual product images supplied by the owner. Never invent a new label, change the product packaging, or generate a misleading version of the product.
+
+If no authentic product image is supplied, create a polished placeholder that can later be replaced from the admin dashboard.
+
+### B. Product Overview
+
+Create a dedicated section explaining:
+- The product name.
+- Its verified product category.
+- Its intended purpose, using only approved and substantiated wording.
+- Its package volume.
+- Its flavor, if confirmed by the official label.
+- Relevant product information and approved warnings.
+
+The previously provided product information indicates a 120 ml package and orange flavor. Verify these details against the final packaging before publishing.
+
+### C. Ingredients and Product Information
+
+Create an elegant ingredient presentation with editable cards or a structured table.
+
+Previously provided label information:
+- Ivy leaf extract: 17.5 mg per 2.5 ml.
+- Licorice root extract: 10.8 mg per 2.5 ml.
+- Thyme herb extract: 10.7 mg per 2.5 ml.
+
+Treat these values as pending verification against the original official label.
+
+Display the serving basis clearly. Do not convert, reinterpret, or silently change ingredient amounts.
+
+All ingredients, quantities, warnings, directions, and other product information must be editable through the admin dashboard.
+
+Never invent ingredients, concentrations, registration numbers, manufacturer details, certifications, approvals, clinical studies, or therapeutic benefits.
+
+### D. Directions and Important Information
+
+Include a dedicated section for official directions of use, storage conditions, warnings, and other label information.
+
+Only publish directions that have been confirmed from the official product label or an authorized source.
+
+If the information is not provided, display an editable placeholder or keep the section unpublished until verified.
+
+Do not invent dosage recommendations or imply that the product replaces professional medical advice.
+
+### E. Product Gallery
+
+Create a premium product gallery that supports:
+- Front and back packaging images.
+- Bottle images.
+- Label details.
+- Additional official promotional images.
+- Responsive image display.
+- Optimized image loading.
+- Optional lightbox viewing.
+
+Only use authentic supplied product assets for actual product representations.
+
+### F. About the Brand / Company
+
+Create an editable section for:
+- Company or brand owner name.
+- Manufacturer, distributor, or responsible entity, as verified.
+- Company introduction.
+- Official address.
+- Contact information.
+- Relevant official certifications, only when documented and authorized.
+
+Do not assume that the brand owner is the manufacturer. Allow the administrator to specify the correct relationship.
+
+### G. Contact Section
+
+Create a professional contact section supporting:
+- Official phone number.
+- Official email.
+- Address, if provided.
+- Social media links.
+- WhatsApp contact link, if configured.
+- Optional contact form with server-side validation and spam protection.
+
+Every contact field must be editable from the dashboard.
+
+Do not invent phone numbers, email addresses, physical addresses, or social media URLs.
+
+If a contact form is implemented, validate and sanitize inputs on the server and apply reasonable anti-spam protections.
+
+### H. Footer
+
+Include:
+- Brand name and logo.
+- Navigation links.
+- Contact information.
+- Privacy policy.
+- Terms of use, if applicable.
+- Relevant product disclaimer.
+- Copyright notice with a configurable year.
+- Optional social links.
+
+### I. Additional Pages
+
+Support creating and managing additional pages, such as:
+- About the product.
+- Ingredients.
+- Frequently asked questions.
+- News and articles.
+- Privacy policy.
+- Contact.
+- Any future content pages.
+
+The administrator must be able to publish, unpublish, edit, reorder, and delete supported content.
+
+## 4. PRESENTATION, ANIMATION, AND MOTION DESIGN
+
+Create a premium, medical-inspired presentation that feels polished and deliberate.
+
+Use:
+- Smooth section transitions.
+- Subtle fade-in and slide-in effects.
+- Gentle parallax only where useful.
+- Elegant hover states.
+- Animated ingredient cards.
+- Refined page transitions where supported.
+- Subtle background movement.
+- A product reveal animation.
+- A restrained, sophisticated loading state.
+- Optional 3D presentation only if it can be implemented without compromising performance or authenticity.
+
+The visual experience should communicate quality and clarity rather than exaggerated medical promises.
+
+Performance and accessibility requirements:
+- Respect the user's reduced-motion preference.
+- Keep animations lightweight.
+- Avoid blocking the main thread.
+- Avoid autoplaying audio.
+- Do not make navigation dependent on animation.
+- Ensure text remains readable during all transitions.
+- Keep mobile performance a priority.
+
+Do not add a long intro animation that prevents visitors from reaching the content quickly.
+
+## 5. ADMINISTRATOR DASHBOARD — PRIVATE AND FULLY FUNCTIONAL
+
+Build a separate administrator interface that is not exposed as part of the public navigation.
+
+The dashboard must be a real working application connected to the same database used by the public website.
+
+Create a clean, professional dashboard with:
+- Overview and content statistics.
+- Product information management.
+- Ingredient management.
+- Page management.
+- Article and post management.
+- Image and media management.
+- Contact information management.
+- Navigation and footer management.
+- SEO metadata management.
+- Draft and published content states.
+- Administrative account and role management, if multiple administrators are enabled.
+- Security event and activity logs.
+- Backup and recovery guidance.
+
+### Content Management Features
+
+Administrators must be able to:
+
+1. Create new pages and posts.
+2. Edit existing pages and posts.
+3. Publish and unpublish content.
+4. Save drafts.
+5. Delete content with a confirmation step.
+6. Restore content from trash or backups when supported.
+7. Upload, replace, and remove images.
+8. Edit product descriptions.
+9. Edit ingredients and their quantities.
+10. Edit verified directions, warnings, and product details.
+11. Update the company profile and contact information.
+12. Change social media links.
+13. Update the website logo and supported branding assets.
+14. Manage page titles, descriptions, and social-sharing metadata.
+15. Preview changes before publishing.
+16. View a history of important administrative actions.
+
+Changes to published content should appear on the public website after a successful save or publication, without requiring a code deployment for ordinary content changes.
+
+Use safe deletion practices. Do not allow an ordinary content editor to delete the entire database or modify system security settings.
+
+## 6. SECURITY ARCHITECTURE — MANDATORY
+
+Security must be implemented at the server, database, authentication, and infrastructure levels.
+
+Do not rely on hiding frontend elements, obscuring JavaScript, disabling browser developer tools, or using a secret URL as the primary security mechanism.
+
+### A. Server-Side Authentication
+
+- Require authentication for all administrator routes and protected API endpoints.
+- Create the first administrator through a secure deployment-time setup process or a trusted identity provider.
+- Never hardcode default administrator credentials.
+- Never ship an accessible default password.
+- Use a reputable authentication system supported by the chosen stack.
+- Hash passwords with a modern password-hashing algorithm such as Argon2id, or use a trusted managed authentication provider.
+- Provide secure account recovery and password reset flows.
+- Support multi-factor authentication (MFA/2FA).
+- Apply login rate limiting and protection against automated guessing.
+- Return generic login errors that do not reveal whether an account exists.
+- Require reauthentication for sensitive security changes where appropriate.
+
+### B. Protected Sessions
+
+- Use secure, HttpOnly, SameSite cookies when using cookie-based sessions.
+- Enforce HTTPS in production.
+- Rotate session identifiers after authentication and privilege changes.
+- Apply appropriate session expiration and logout invalidation.
+- Protect cookie-based state-changing requests against CSRF.
+- Never store administrator passwords, private tokens, or privileged session secrets in localStorage or sessionStorage.
+- Do not expose session tokens through URLs or client-side logs.
+
+### C. Real Authorization and Role-Based Access Control
+
+Implement authorization on the server for every protected action.
+
+Suggested roles:
+- Super Administrator: manages administrators, roles, security settings, and all content.
+- Content Administrator: manages permitted website content and media.
+- Read-Only Administrator: can view dashboard information and logs permitted by policy but cannot modify content.
+
+The system may start with a single administrator, but the authorization model should support safe future expansion.
+
+Verify permissions on every server request. Hiding a button is not authorization.
+
+An unauthorized user must not be able to gain permissions by modifying JavaScript, changing request payloads, calling APIs directly, or manipulating identifiers.
+
+Deny access by default.
+
+### D. Database Protection
+
+- Use a properly configured production database supported by the platform.
+- Keep database credentials and service-role secrets exclusively on the server or in the provider's secret manager.
+- Never expose privileged database keys in public frontend code.
+- Use parameterized queries or a safe ORM.
+- Validate all input on the server.
+- Apply least-privilege database permissions.
+- Use row-level security where supported and appropriate.
+- Ensure public visitors can only read explicitly public, published content.
+- Prevent public users from writing, updating, deleting, or reading private administrative data.
+- Protect unpublished drafts, administrator accounts, audit logs, and internal settings.
+- Separate public read permissions from administrative write permissions.
+- Never trust client-provided role names or permission flags.
+
+### E. API and Application Security
+
+Protect against common web application vulnerabilities, including:
+- SQL injection.
+- Cross-site scripting (XSS).
+- Cross-site request forgery (CSRF), where applicable.
+- Broken access control and IDOR.
+- Authentication bypass.
+- Privilege escalation.
+- Malicious file uploads.
+- Path traversal.
+- Server-side request forgery (SSRF), where relevant.
+- Brute-force attacks.
+- Abuse of public contact endpoints.
+
+Implement:
+- Strict server-side validation and output encoding.
+- Appropriate Content Security Policy and security headers.
+- Safe file upload rules with type and size restrictions.
+- Safe handling of HTML and rich-text content.
+- Origin checks and appropriate CORS configuration.
+- Rate limits for sensitive endpoints.
+- Secure error responses that do not expose stack traces, secrets, or internal infrastructure.
+- Dependency auditing and secure configuration.
+- Protection against mass assignment and unexpected fields.
+
+Do not build an unrestricted file upload endpoint or a generic server endpoint that can access arbitrary files or execute arbitrary code.
+
+### F. Hidden Administration Entry Point
+
+Keep the administrator interface out of public navigation and public sitemaps.
+
+An optional non-obvious admin URL may reduce casual discovery, but it must never be considered a security boundary.
+
+Even if someone discovers the administrator URL, inspects the page using F12, examines JavaScript bundles, or sends direct API requests, they must still be denied all protected operations without valid authentication and server-side authorization.
+
+Do not disable F12 or attempt to interfere with browser developer tools. That is not reliable security.
+
+Do not expose admin-only information in public HTML, JavaScript, source maps, public API responses, or browser network responses.
+
+### G. Logging and Monitoring
+
+Record important administrative events, including:
+- Successful and failed authentication attempts.
+- Account and role changes.
+- Content publication and deletion.
+- Changes to sensitive settings.
+- Security-related errors.
+
+Audit logs must not contain passwords, authentication tokens, or other secrets.
+
+Restrict log access and retention. Apply rate limits and provide a reasonable alerting strategy for suspicious activity where the deployment platform supports it.
+
+### H. Backups and Recovery
+
+Provide a documented backup and restoration strategy.
+
+- Back up the database and uploaded media.
+- Keep backup access separate from ordinary content editing permissions.
+- Protect backups against unauthorized access.
+- Document restoration steps.
+- Test restoration before declaring disaster recovery ready.
+
+Do not claim backups exist unless they are actually configured.
+
+### I. Security Verification
+
+Before delivery, test:
+- Unauthenticated access to every admin page.
+- Direct requests to every protected API endpoint.
+- Unauthorized content creation, editing, and deletion.
+- Attempts to access unpublished content.
+- Attempts to change roles or administrator IDs.
+- Session expiration and logout.
+- File upload restrictions.
+- Input validation and output encoding.
+- Public database permissions.
+- Exposure of secrets in frontend bundles.
+- Mobile and desktop administrator access.
+
+Provide a clear list of implemented controls, automated tests, remaining risks, and deployment actions.
+
+Never describe the site as impossible to hack. State only what has been implemented and verified.
+
+## 7. RECOMMENDED TECHNOLOGY SELECTION
+
+Choose a stack compatible with the selected AI platform and suitable for a secure, maintainable production deployment.
+
+Preferred characteristics:
+- Modern component-based frontend.
+- Server-side backend or trusted serverless functions.
+- PostgreSQL or another appropriate managed relational database.
+- Trusted authentication with MFA support.
+- Database authorization and row-level security where applicable.
+- Private object storage for non-public media and protected storage rules where needed.
+- Publicly accessible optimized assets for approved published content.
+- Environment-based configuration and secret management.
+- Automated build and test checks.
+- HTTPS deployment.
+
+A suitable default architecture may use:
+- Next.js or a comparable modern full-stack framework.
+- TypeScript.
+- PostgreSQL.
+- Supabase Auth and correctly configured Row Level Security, or an equivalent trusted authentication and database solution.
+- A maintained animation library, or lightweight CSS animations.
+- A hosting platform that supports server-side execution and secure environment variables.
+
+These are recommendations, not rigid requirements. If the current platform offers a more appropriate secure stack, choose it and explain why.
+
+Do not use a frontend-only application with fake authentication as the final implementation.
+
+Do not expose database service-role keys or privileged API credentials in the browser.
+
+Do not assume that installing a library automatically configures security correctly.
+
+## 8. CONTENT, BRAND ACCURACY, AND MEDICAL RESPONSIBILITY
+
+The website is an informational product website, not a substitute for medical advice.
+
+- Verify the exact product spelling against the original packaging.
+- Preserve the official logo, label, package size, and ingredient quantities.
+- Do not invent manufacturer or distributor details.
+- Do not invent registration or approval numbers.
+- Do not invent clinical evidence, medical endorsements, awards, or certifications.
+- Do not claim that the product cures, prevents, or treats a disease unless the exact claim is legally permitted and supported by appropriate official evidence.
+- Do not invent dosage or usage instructions.
+- Do not make unsupported promises about safety, effectiveness, or guaranteed results.
+- Display official warnings and directions only when verified.
+- Make product claims and relevant disclaimers editable.
+- Keep unverified sections in draft status until reviewed by the owner.
+- Use professional, clear Arabic suitable for the intended audience.
+
+All public-facing content must be manageable through the dashboard.
+
+## 9. SEO, PERFORMANCE, AND ACCESSIBILITY
+
+Implement:
+- Semantic HTML.
+- Descriptive page titles and meta descriptions.
+- Canonical URLs where appropriate.
+- XML sitemap for public pages only.
+- robots.txt configuration that does not substitute for access control.
+- Open Graph and social-sharing metadata.
+- Appropriate structured data only when accurate and supported.
+- Optimized images in modern formats where possible.
+- Lazy loading for non-critical images.
+- Caching and revalidation for public content.
+- Good Core Web Vitals practices.
+- Accessible keyboard navigation.
+- Visible focus states.
+- Sufficient color contrast.
+- Accessible form labels and error messages.
+- RTL support across all Arabic pages.
+- A functional mobile navigation menu.
+- A custom 404 page and safe error states.
+
+Never include private administrator routes, unpublished pages, private files, or sensitive metadata in public search indexing.
+
+## 10. DATABASE AND CONTENT MODEL
+
+Design a clear, maintainable schema. Depending on the chosen stack, it should support entities such as:
+
+- Administrators and role assignments.
+- Public website settings.
+- Product information.
+- Ingredients and their serving basis.
+- Verified usage instructions and warnings.
+- Pages and articles.
+- Draft and published content states.
+- Media metadata and storage references.
+- Contact information and social links.
+- Audit events.
+- Optional content revision history.
+
+Use stable identifiers, timestamps, suitable indexes, and appropriate relationships.
+
+Define public-read and admin-write permissions explicitly.
+
+Keep secrets and authentication credentials out of the public content schema.
+
+Create database migrations or an equivalent repeatable schema setup.
+
+Provide sample content only where it is clearly marked as placeholder data. Do not seed fabricated real-world product claims or credentials.
+
+## 11. ADMIN DASHBOARD DESIGN
+
+Design the dashboard separately from the public website.
+
+Use:
+- A professional sidebar.
+- A clear overview page.
+- Searchable content lists.
+- Filters for draft and published status.
+- Pagination for large lists.
+- A rich-text editor with safe output handling.
+- Media previews.
+- Validation messages.
+- Save, preview, publish, unpublish, and delete actions.
+- Confirmation dialogs for destructive actions.
+- Clear success and error feedback.
+- Responsive layouts.
+- Session timeout handling.
+- Accessible forms and keyboard navigation.
+
+Make it easy for a non-technical owner to maintain the website without changing source code.
+
+Never provide ordinary content administrators with unrestricted database access or server shell access.
+
+## 12. DEVELOPMENT AND DEPLOYMENT WORKFLOW
+
+Work in stages, but deliver a functioning integrated application.
+
+Stage 1: Inspect platform capabilities and choose the architecture.
+
+Stage 2: Build the design system and responsive public website.
+
+Stage 3: Create the database schema and migrations.
+
+Stage 4: Implement authentication, server-side authorization, and role-based access control.
+
+Stage 5: Implement the content management dashboard and media handling.
+
+Stage 6: Connect all public pages to the database with correct publication rules.
+
+Stage 7: Implement animations, accessibility, performance, and SEO.
+
+Stage 8: Run security checks, functional tests, and responsive testing.
+
+Stage 9: Provide deployment instructions and a clear handover.
+
+Do not stop after creating the frontend.
+
+Do not use hardcoded sample data as a substitute for database integration.
+
+Do not simulate successful saves, authentication, publishing, deletion, or uploads.
+
+If an external service requires user credentials, API keys, billing, domain configuration, or explicit authorization, identify the exact missing requirement and explain how to configure it securely. Never fabricate a successful connection.
+
+## 13. ACCEPTANCE CRITERIA
+
+The project is considered ready for handover only when:
+
+1. Public visitors can browse the published website without registering.
+2. The website is responsive and fully supports Arabic RTL.
+3. The design matches the premium purple/lilac brand identity.
+4. The product details are editable and based on verified information.
+5. An authorized administrator can create, edit, publish, unpublish, and delete permitted content.
+6. Changes persist in the real database and appear publicly according to publication status.
+7. Unauthenticated users cannot access protected admin pages or APIs.
+8. Authenticated users cannot perform actions beyond their permissions.
+9. Secrets and privileged database credentials are absent from client-side code.
+10. Unpublished content and private administrative records are not publicly accessible.
+11. Destructive actions require confirmation and important actions are logged.
+12. Core security and functionality tests pass.
+13. The deployment instructions identify all required environment variables and external service configuration without exposing their values.
+14. The final handover clearly separates completed features, tested security controls, remaining limitations, and tasks requiring owner action.
+
+## 14. FINAL DELIVERABLES
+
+Deliver:
+- The complete application source code.
+- The public website.
+- The administrator dashboard.
+- Database schema and migrations.
+- Authentication and authorization implementation.
+- Content management features.
+- Responsive design and animation system.
+- Automated tests for critical functionality and access control.
+- A sample environment-variable template containing names only, never real secrets.
+- Setup and deployment documentation.
+- Administrator setup instructions.
+- Backup and recovery instructions.
+- A security checklist and test report.
+- A list of all product information that still requires verification.
+- A list of any features that remain incomplete.
+
+Begin by selecting the best architecture for the current AI development platform. Then implement the application end-to-end. Prioritize real functionality, authentic product information, maintainability, security, and visual quality over superficial effects.
+
+Do not ask the user to choose a technology stack unless a genuine platform limitation makes the decision necessary. Use sensible defaults, document your choices, and clearly identify anything that requires external setup or human verification.

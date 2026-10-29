@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "product": {
+    "id": "moraherivi-syrup-01",
+    "brandNameAr": "موراهيريفي",
+    "brandNameEn": "Moraherefi",
+    "taglineAr": "شراب عشبي متطور مستخلص من الطبيعة لدعم صحة الجهاز التنفسي",
+    "taglineEn": "Advanced Herbal Syrup with Botanicals for Respiratory Health Support",
+    "categoryAr": "شراب عشبي / مكمل غذائي",
+    "categoryEn": "Herbal Syrup / Dietary Supplement",
+    "volume": "120 مل",
+    "flavorAr": "نكهة البرتقال اللطيفة الطبيعية",
+    "flavorEn": "Pleasant Natural Orange Flavor",
+    "purposeAr": "تركيبة عشبية طبيعية متوازنة مخصصة لتهدئة الشعب الهوائية ودعم الجهاز التنفسي وتخفيف الاحتقان والسعال المصاحب لنزلات البرد.",
+    "purposeEn": "Balanced natural herbal formulation designed to soothe the respiratory tract, support mucosal health, and relieve cough associated with common cold.",
+    "directionsAr": "رج العبوة جيداً قبل الاستعمال. يُؤخذ وفقاً لإرشادات الطبيب أو الصيدلي أو الجرعة المحددة على الملصق المعتمد.",
+    "directionsEn": "Shake well before use. Take as directed by physician, pharmacist, or official package label.",
+    "storageConditionsAr": "يُحفظ في مكان جاف وبارد تحت درجة حرارة أقل من 25 درجة مئوية، بعيداً عن أشعة الشمس المباشرة ومتناول الأطفال.",
+    "warningsAr": [
+      "يُحفظ بعيداً عن متناول ونظر الأطفال.",
+      "لا تتجاوز الجرعة اليومية الموصى بها.",
+      "استشر الطبيب أو الصيدلي قبل الاستخدام في حالات الحمل أو الإرضاع أو للأطفال دون سن 6 سنوات.",
+      "يُفضل استهلاك المنتج خلال 3 أشهر من فتح العبوة.",
+      "هذا المنتج مكمل غذائي عشبي وليس بديلاً عن استشارة الطبيب المختص أو الدواء الموصوف."
+    ],
+    "medicalDisclaimerAr": "إخلاء مسؤولية طبي: المعلومات الواردة في هذا الموقع لأغراض تثقيفية وتعريفية فقط بالمنتج، ولا تُعد تشخيصاً أو علاجاً أو بديلاً عن الرعاية الطبية المتخصصة. استشر دائماً طبيبك أو صيدلانيك المؤهل.",
+    "isLabelVerified": true,
+    "verificationNoticeAr": "تم التحقق والمطابقة الرسمية مع العبوة المعتمدة.",
+    "updatedAt": "2026-10-28T12:32:42.093Z"
+  },
+  "ingredients": [
+    {
+      "id": "ing-ivy-leaf",
+      "nameAr": "مستخلص أوراق اللبلاب",
+      "nameEn": "Ivy Leaf Extract",
+      "scientificName": "Hedera helix L.",
+      "amount": "17.5 ملغ",
+      "servingBasis": "لكل 2.5 مل",
+      "descriptionAr": "يساهم في إذابة وتسهيل خروج الإفرازات المخاطية وتوسيع الشعب الهوائية والتخفيف من تشنجات السعال.",
+      "descriptionEn": "Helps liquefy mucus, relax bronchial muscles, and relieve cough spasms.",
+      "isVerified": true,
+      "order": 1,
+      "isPublished": true
+    },
+    {
+      "id": "ing-licorice-root",
+      "nameAr": "مستخلص عرق السوس",
+      "nameEn": "Licorice Root Extract",
+      "scientificName": "Glycyrrhiza glabra",
+      "amount": "10.8 ملغ",
+      "servingBasis": "لكل 2.5 مل",
+      "descriptionAr": "يتميز بخصائص مهدئة للأغشية المخاطية في الحلق ومضادة للالتهابات الخفيفة ودعم المناعة الطبيعية.",
+      "descriptionEn": "Known for soothing mucosal membranes in the throat and providing mild anti-inflammatory support.",
+      "isVerified": true,
+      "order": 2,
+      "isPublished": true
+    },
+    {
+      "id": "ing-thyme-herb",
+      "nameAr": "مستخلص عشبة الزعتر",
+      "nameEn": "Thyme Herb Extract",
+      "scientificName": "Thymus vulgaris",
+      "amount": "10.7 ملغ",
+      "servingBasis": "لكل 2.5 مل",
+      "descriptionAr": "يحتوي على زيوت طيارة فعالة تعمل كمطهر طبيعي ومضاد للتشنج القصبي وتخفيف تهيج الحلق.",
+      "descriptionEn": "Rich in natural essential oils providing antispasmodic and antiseptic bronchial soothing effects.",
+      "isVerified": true,
+      "order": 3,
+      "isPublished": true
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-about",
+      "slug": "about-product",
+      "titleAr": "عن منتج موراهيريفي",
+      "titleEn": "About Moraherefi",
+      "contentAr": "موراهيريفي هو شراب عشبي متطور صُمم بعناية فائقة وفق معايير الجودة الصيدلانية، جامعاً بين ثلاثة مستخلصات نباتية تاريخية موثقة علمياً: اللبلاب، عرق السوس، والزعتر، مع نكهة برتقال محببة ومستساغة لكافة أفراد العائلة.",
+      "isPublished": true,
+      "updatedAt": "2026-10-28T12:32:42.093Z",
+      "order": 1
+    },
+    {
+      "id": "page-faq",
+      "slug": "faq",
+      "titleAr": "الأسئلة الشائعة",
+      "titleEn": "Frequently Asked Questions",
+      "contentAr": "إجابات موثقة على أكثر الأسئلة شيوعاً حول شراب موراهيريفي، طريقة تناوله، الفئات المستهدفة، شروط الحفظ، واحتياطات الاستخدام.",
+      "isPublished": true,
+      "updatedAt": "2026-10-28T12:32:42.093Z",
+      "order": 2
+    },
+    {
+      "id": "page-privacy",
+      "slug": "privacy-policy",
+      "titleAr": "سياسة الخصوصية وحماية البيانات",
+      "titleEn": "Privacy Policy",
+      "contentAr": "نلتزم بأعلى معايير حماية البيانات وسرية المعلومات الشخصية لزوار موقع موراهيريفي. لا نجمع أي بيانات دون موافقة مسبقة، ولا نبيع أو نشارك معلوماتكم مع أي أطراف ثالثة.",
+      "isPublished": true,
+      "updatedAt": "2026-10-28T12:32:42.093Z",
+      "order": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-01",
+      "slug": "benefits-of-ivy-leaf-for-cough",
+      "titleAr": "فوائد مستخلص أوراق اللبلاب في تهدئة السعال وتوسيع الشعب الهوائية",
+      "titleEn": "The Proven Benefits of Ivy Leaf Extract for Cough Relief",
+      "excerptAr": "استعراض علمي لآلية عمل السابونين الطبيعي الموجود في أوراق اللبلاب في إذابة البلغم وتحسين كفاءة التنفس.",
+      "contentAr": "يُعد مستخلص أوراق اللبلاب (Hedera helix) من أكثر المكونات النباتية دراسة في مجال طب الأعشاب الحديث. تكمن فاعليته في احتوائه على مركبات الصابونين (Saponins) التي تساعد على تقليل لزوجة الإفرازات المخاطية وتسهيل خروجها، بالإضافة إلى تأثيرها المهدئ على عضلات القصبة الهوائية.",
+      "category": "مكونات طبية",
+      "author": "هيئة التحرير الدوائية",
+      "readTimeMinutes": 4,
+      "isPublished": true,
+      "publishedAt": "2026-10-28T12:32:42.093Z",
+      "updatedAt": "2026-10-28T12:32:42.093Z",
+      "imageUrl": "/src/assets/images/herbal_botanical_ingredients_1793189890367.jpg"
+    },
+    {
+      "id": "art-02",
+      "slug": "respiratory-wellness-winter-tips",
+      "titleAr": "نصائح وقائية متكاملة للعناية بالجهاز التنفسي خلال مواسم تقلب الطقس",
+      "titleEn": "Comprehensive Respiratory Care Tips During Seasonal Changes",
+      "excerptAr": "إرشادات عملية لتقوية الدفاعات التنفسية الطبيعية، من الترطيب المستمر وتناول المكملات العشبية الموثوقة.",
+      "contentAr": "مع تبدل الفصول وانخفاض درجات الحرارة، يتعرض الجهاز التنفسي لتحديات مستمرة ناتجة عن جفاف الهواء والعدوى الفيروسية. يُنصح بالحرص على شرب السوائل الدافئة، واستخدام المستخلصات المهدئة كعرق السوس والزعتر، مع أخذ قسط كافٍ من الراحة.",
+      "category": "صحة ووقاية",
+      "author": "قسم الاستشارات الصيدلانية",
+      "readTimeMinutes": 3,
+      "isPublished": true,
+      "publishedAt": "2026-10-28T12:32:42.093Z",
+      "updatedAt": "2026-10-28T12:32:42.093Z",
+      "imageUrl": "/src/assets/images/pharma_laboratory_quality_1793189889844.jpg"
+    }
+  ],
+  "contactMessages": [],
+  "auditLogs": [
+    {
+      "id": "253558a0-7c81-4796-8284-0fe23ccc13e6",
+      "timestamp": "2026-10-29T07:54:57.984Z",
+      "userId": "61877601-d90a-4a0c-afad-068e31ab1128",
+      "username": "admin",
+      "role": "super_admin",
+      "action": "LOGIN_SUCCESS",
+      "details": "User authenticated successfully and session established.",
+      "ipAddress": "127.0.0.1",
+      "status": "success"
+    },
+    {
+      "id": "65728428-4ae5-480c-84ea-7b0da5715659",
+      "timestamp": "2026-10-29T07:49:48.007Z",
+      "userId": "61877601-d90a-4a0c-afad-068e31ab1128",
+      "username": "admin",
+      "role": "super_admin",
+      "action": "LOGIN_SUCCESS",
+      "details": "User authenticated successfully and session established.",
+      "ipAddress": "127.0.0.1",
+      "status": "success"
+    },
+    {
+      "id": "b7bcff01-4595-4f46-b070-764adf1e5d6d",
+      "timestamp": "2026-10-28T13:37:58.527Z",
+      "userId": "72988712-e81b-5b1d-bfbe-179f42bc2239",
+      "username": "admin_mora",
+      "role": "super_admin",
+      "action": "LOGIN_SUCCESS",
+      "details": "User authenticated successfully and session established.",
+      "ipAddress": "127.0.0.1",
+      "status": "success"
+    },
+    {
+      "id": "92408baf-26a9-467c-97f4-cdaabb076838",
+      "timestamp": "2026-10-28T13:37:39.479Z",
+      "userId": "61877601-d90a-4a0c-afad-068e31ab1128",
+      "username": "admin",
+      "role": "super_admin",
+      "action": "LOGIN_SUCCESS",
+      "details": "User authenticated successfully and session established.",
+      "ipAddress": "127.0.0.1",
+      "status": "success"
+    },
+    {
+      "id": "91a3a09a-db31-429a-88cf-be4264244e4f",
+      "timestamp": "2026-10-28T12:35:11.110Z",
+      "username": "admin_mora",
+      "action": "INITIAL_ADMIN_CREATED",
+      "details": "Initial Super Administrator account \"admin_mora\" successfully configured.",
+      "ipAddress": "127.0.0.1",
+      "status": "success"
+    },
+    {
+      "id": "d569ca57-63c9-4a51-bdbd-93e817e75706",
+      "timestamp": "2026-10-28T12:32:42.097Z",
+      "username": "system",
+      "action": "SYSTEM_INITIALIZATION",
+      "details": "Initial database created with verified product and ingredient records.",
+      "ipAddress": "127.0.0.1",
+      "status": "success"
+    }
+  ],
+  "settings": {
+    "siteNameAr": "موراهيريفي | Moraherefi",
+    "siteNameEn": "Moraherefi Official",
+    "officialPhone": "+20 10 50730409",
+    "officialEmail": "",
+    "officialAddressAr": "مصر",
+    "whatsappNumber": "+201050730409",
+    "socialLinks": {
+      "instagram": "https://instagram.com/moraherefi",
+      "twitter": "https://twitter.com/moraherefi"
+    },
+    "copyrightYear": 2026,
+    "brandOwnerAr": "موراهيريفي للرعاية الصحية (Moraherefi Healthcare)",
+    "manufacturerOrDistributorAr": "جهة التصنيع والتوزيع المعتمدة (تخضع للتحديث والتحقق الرسمي)",
+    "distributorRelationship": "المالك والموزع المعتمد للمنتج",
+    "maintenanceMode": false
+  },
+  "users": [
+    {
+      "id": "61877601-d90a-4a0c-afad-068e31ab1128",
+      "username": "admin",
+      "fullName": "المشرف العام (Super Admin)",
+      "role": "super_admin",
+      "email": "admin@moraherefi.com",
+      "createdAt": "2026-10-28T12:35:11.109Z",
+      "isActive": true,
+      "passwordHash": "bad134b28bbc0f0bfdcbf249937326e4b2dd692654f2f5001a47891370a0084c182d75a3986b2478cac6fd452b5d3022daff8c21e12e909fa4eac8eb0c58f880",
+      "salt": "4485633d576e96b172ae634ca0971b3b",
+      "lastLoginAt": "2026-10-29T07:54:57.983Z"
+    },
+    {
+      "id": "72988712-e81b-5b1d-bfbe-179f42bc2239",
+      "username": "admin_mora",
+      "fullName": "د. ريان - المشرف العام",
+      "role": "super_admin",
+      "email": "admin_mora@moraherefi.com",
+      "createdAt": "2026-10-28T12:35:11.109Z",
+      "isActive": true,
+      "passwordHash": "bad134b28bbc0f0bfdcbf249937326e4b2dd692654f2f5001a47891370a0084c182d75a3986b2478cac6fd452b5d3022daff8c21e12e909fa4eac8eb0c58f880",
+      "salt": "4485633d576e96b172ae634ca0971b3b",
+      "lastLoginAt": "2026-10-28T13:37:58.526Z"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-bottle",
+      "src": "/assets/aistudio/Gemini_Generated_Image_5833bj5833bj5833_4ab147e3.jpg",
+      "titleAr": "عبوة شراب موراهيريفي 120 مل",
+      "titleEn": "Moraherefi 120ml Bottle Packaging",
+      "subtitleAr": "الزجاج الصيدلاني المعتم والملصق الرسمي المعتمد",
+      "subtitleEn": "Pharmaceutical amber glass with official product label",
+      "categoryAr": "العبوة والتغليف",
+      "categoryEn": "Packaging",
+      "order": 1,
+      "isPublished": true
+    },
+    {
+      "id": "gal-botanicals",
+      "src": "/src/assets/images/herbal_botanical_ingredients_1793189890367.jpg",
+      "titleAr": "المستخلصات النباتية العشبية",
+      "titleEn": "Herbal Botanical Ingredients",
+      "subtitleAr": "خلاصات أوراق اللبلاب، جذور عرق السوس، وعشبة الزعتر",
+      "subtitleEn": "Standardized extracts of ivy leaf, licorice root, and thyme herb",
+      "categoryAr": "المكونات الطبيعية",
+      "categoryEn": "Active Botanicals",
+      "order": 2,
+      "isPublished": true
+    },
+    {
+      "id": "gal-lab",
+      "src": "/src/assets/images/pharma_laboratory_quality_1793189889844.jpg",
+      "titleAr": "معايير الجودة والرقابة الصيدلانية",
+      "titleEn": "Pharmaceutical Laboratory Quality",
+      "subtitleAr": "مختبرات متطورة تضمن دقة العيار وثبات الفاعلية للمنتج",
+      "subtitleEn": "State-of-the-art analytical testing ensuring potency and purity",
+      "categoryAr": "الرقابة المخبرية",
+      "categoryEn": "Quality Control",
+      "order": 3,
+      "isPublished": true
+    }
+  ]
+}

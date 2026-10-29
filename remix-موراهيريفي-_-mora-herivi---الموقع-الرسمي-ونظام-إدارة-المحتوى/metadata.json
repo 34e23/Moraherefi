@@ -1,0 +1,8 @@
+{
+  "name": "Remix موراهيريفي | Mora Herivi - الموقع الرسمي ونظام إدارة المحتوى",
+  "description": "الموقع الرسمي الموثق لشراب موراهيريفي (Mora Herivi) العشبي المعتمد ونظام إدارة المحتوى الآمن للمنتج ومعلومات المكونات والإرشادات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
